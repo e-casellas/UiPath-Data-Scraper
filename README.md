@@ -1,0 +1,2 @@
+# UiPath-Data-Scraper
+UiPath short but useful automation I used to extract phone numbers from Craigslist for an Amazon Mechanical Turk HIT. The bot takes the URL from the Amazon HIT, opens a new browser window with this URL. First it checks if the ad was removed, if it was, it closes the window and Returns the HIT. If the ad is live, it scrapes the phone number, closes the window and checks if Amazon is asking for a Captcha. If it is, it reads the 
